@@ -1,15 +1,21 @@
-# Job Application Web App  
+A Django-based web application for managing food orders. This app allows customers to browse a menu, place orders, and receive confirmations, while restaurant staff can manage incoming orders and update their status.
 
-A simple Django-based web application for job applications. This app allows applicants to submit their details, stores the information in a database, and sends a confirmation email upon successful submission.  
+---
 
-## Features  
-- Collects job applications through a web form  
-- Stores applicant details in a database  
-- Sends confirmation emails to applicants  
-- Simple and user-friendly interface  
+##  Features
 
-## Technologies Used  
-- Django (Python)  
-- SQLite/PostgreSQL (Database)  
-- SMTP for email notifications  
-- HTML/CSS for the frontend 
+- Browse menu items and place food orders
+- Admin/staff dashboard to manage and update orders
+- Email confirmation sent to customers after successful order placement
+- Real-time order status tracking (basic)
+- Clean and responsive user interface
+
+---
+
+##  Technologies Used
+
+- **Django (Python)** – Backend framework
+- **SQLite** – Database
+- **Django Admin** – Management interface
+- **HTML / CSS / Bootstrap** – Frontend
+- **SMTP** – For sending confirmation emails
